@@ -16,13 +16,13 @@ container.addEventListener("mousemove", e => {
 container.addEventListener("mouseenter", e =>{
    profile.style.transition = 'none';
 
-   name.style.transform =  'translateZ(150px)';
-   name.style.textShadow = '0 2px 3px rgba(0,0,0,.3)';
+   name.style.transform =  'translateZ(150px) scale(1.5)';
+   name.style.textShadow = '0 2px 3px rgba(0,0,0,.2)';
 
    image.style.transform =  'translateZ(150px)';
 
    description.style.transform =  'translateZ(150px)';
-   description.style.textShadow = '0 2px 3px rgba(0,0,0,.3)';
+   description.style.textShadow = '0 2px 3px rgba(0,0,0,.2)';
 });
 
 // Reset profile to default
