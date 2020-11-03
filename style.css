@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    perspective: 1000px;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    padding: 60px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    transform-style: preserve-3d;
+}
+
+.name{
+    text-align: center;
+    padding: 20px;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+h2, h3{
+    font-weight: normal;
+}
